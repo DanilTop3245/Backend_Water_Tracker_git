@@ -11,6 +11,8 @@ export const registerSchema = Joi.object({
   gender: Joi.string(),
 });
 
+
+
 export const loginSchema = Joi.object({
   email: Joi.string().pattern(emailRegexp).required(),
   password: Joi.string().min(8).max(64).required(),
@@ -39,3 +41,4 @@ export const passwordResetSchema = Joi.object({
 export const passwordUpdateSchema = Joi.object({
   password: Joi.string().required(),
 });
+

@@ -41,9 +41,9 @@ Water Tracker
 
 Склонуйте репозиторій з проектом на ваш комп'ютер:
 
-[Front-End](https://github.com/BendelVolodymyr/Smart-Foxes-WaterTracker)
+[Front-End](https://github.com/DanilTop3245/Frontend_water_tracker_git)
 
-[Back-End](https://github.com/BendelVolodymyr/Smart-Foxes-Backend-WaterTracker)
+[Back-End](https://github.com/DanilTop3245/Backend_Water_Tracker_git)
 
 ## 3. Встановлення залежностей проекту
 

@@ -38,7 +38,7 @@ app.use("/api/auth", googleAuthRouter);
 app.use("/api/users", authRouter, usersRouter);
 app.use("/auth", authRouter);
 app.use("/api/waters", watersRouter);
-app.use("/api/water-rate", waterRateRouter);
+app.use("/api/", waterRateRouter);
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
